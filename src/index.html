@@ -18,16 +18,40 @@
     <a href="#site">사이트 영역 바로가기</a>
     <a href="#port">포트폴리오 영역 바로가기</a>
     <a href="#contact">연락처 영역 바로가기</a>
-    <a href="#footer">푸터 영역 바로가기</a>
   </div>
   <!-- //skip -->
 
-  <header id="header">
-      header
+  <header id="header" role="banner">
+      <div class="header__inner">
+        <div class="header__logo">
+          <h1>
+            <a href="#">portfolio<em>vite</em></a>
+          </h1>
+        </div>
+        <nav class="header__nav">
+          <ul>
+            <li><a href="#intro">intro</a></li>
+            <li><a href="#skill">skill</a></li>
+            <li><a href="#site">site</a></li>
+            <li><a href="#port">port</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </nav>
+        <div 
+          class="header__nav__mobile" 
+          id="headerToggle" 
+          aria-controls="primary-menu" 
+          aria-expended="false" 
+          role="button"
+          tabindex="0"
+        >
+          <span></span>
+        </div>
+      </div>
   </header>
   <!-- //header -->
  
-  <main id ="main">
+  <main id ="main" role="main">
     <section id="intro">
         intro
     </section>
@@ -55,7 +79,7 @@
   </main>
   <!-- //main -->
 
-  <footer id="footer">
+  <footer id="footer" role="contentinfo">
       footer
   </footer>
   <!-- //footer -->
